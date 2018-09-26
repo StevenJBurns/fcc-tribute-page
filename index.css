@@ -14,15 +14,19 @@ body {
 }
 
 header {
-  background-color: azure
+  min-height: 8em;
+  background-color: skyblue
 }
 
 main {
-  flex: 1 0 auto
+  flex: 1 0 auto;
+  background-color: azure
 }
 
 footer {
-  background-color: azure
+  min-height: 4em;
+  text-align: center;
+  background-color: skyblue
 }
 
 
