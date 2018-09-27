@@ -15,8 +15,13 @@ body {
 }
 
 header {
-  min-height: 8em;
-  background-color: skyblue
+  display: flex;
+  /* min-height: 8em; */
+  flex-direction: column;
+  align-items: center;
+  background-color: skyblue;
+  text-align: center;
+  padding: 16px 0
 }
 
 #title {
@@ -35,20 +40,32 @@ main {
 #img-div {
   display: flex;
   flex-direction: column;
-  max-height: 360px
+  max-height: 360px;
+  padding: 24px 0;
 }
 
 #image {
   margin: 0 auto;
   max-height: 360px;
   max-width: 25%;
-  border: 2px navy solid;
+  border: 2px skyblue solid;
   border-radius: 8px;
-  overflow: hidden;
+  overflow: hidden
 }
 
 #img-caption {
   text-align: center
+}
+
+#tribute-info {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  max-width: 720px;
+}
+
+#tribute-info * {
+  margin: 0 auto
 }
 
 footer {
