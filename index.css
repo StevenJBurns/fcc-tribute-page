@@ -41,7 +41,7 @@ main {
 #image {
   margin: 0 auto;
   max-height: 360px;
-  max-width: auto;
+  max-width: 25%;
   border: 2px navy solid;
   border-radius: 8px;
   overflow: hidden;
