@@ -41,7 +41,10 @@ main {
 #image {
   margin: 0 auto;
   max-height: 360px;
-  max-width: 720x
+  max-width: auto;
+  border: 2px navy solid;
+  border-radius: 8px;
+  overflow: hidden;
 }
 
 #img-caption {
