@@ -16,7 +16,6 @@ body {
 
 header {
   display: flex;
-  /* min-height: 8em; */
   flex-direction: column;
   align-items: center;
   background-color: skyblue;
@@ -41,7 +40,7 @@ main {
   display: flex;
   flex-direction: column;
   max-height: 360px;
-  padding: 24px 0;
+  padding: 24px 0
 }
 
 #image {
@@ -61,7 +60,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-items: center;
-  max-width: 720px;
+  max-width: 720px
 }
 
 #tribute-info * {
@@ -70,14 +69,14 @@ main {
 
 footer {
   display: flex;
+  min-height: 4em;
   flex-direction: column;
   align-content: center;
-  min-height: 4em;
   background-color: skyblue
 }
 
 footer ul {
-  list-style: none;
+  list-style: none
 }
 
 footer ul li {
