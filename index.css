@@ -43,6 +43,10 @@ main {
   padding: 24px 0
 }
 
+#img-div a {
+  text-align: center
+}
+
 #image {
   margin: 0 auto;
   max-height: 320px;
@@ -107,4 +111,10 @@ footer a:visited {
 footer h4 {
   margin: auto;
   text-align: center
+}
+
+@media screen and (max-width: 360px) {
+  #tribute-info ul {
+    font-size: 14px
+  }
 }
