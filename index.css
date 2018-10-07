@@ -64,12 +64,17 @@ main {
   font-size: 16px;
 }
 
-#tribute-info * {
+#tribute-info ul {
   margin: 0 auto
 }
 
 #tribute-link {
   margin: 12px auto
+}
+
+a:link,
+a:visited {
+  color: navy
 }
 
 footer {
@@ -95,7 +100,7 @@ footer ul li {
   display: inline-block;
 }
 
-footer * {
+footer h4 {
   margin: auto;
   text-align: center
 }
