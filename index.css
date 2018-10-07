@@ -53,7 +53,8 @@ main {
   max-width: 25%;
   border: 2px skyblue solid;
   border-radius: 8px;
-  overflow: hidden
+  overflow: hidden;
+  display: block
 }
 
 #img-caption {
