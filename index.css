@@ -58,29 +58,40 @@ main {
 
 #tribute-info {
   display: flex;
+  margin: 0 auto;
   flex-direction: column;
-  justify-items: center;
-  max-width: 720px
+  max-width: 720px;
+  font-size: 16px;
 }
 
 #tribute-info * {
   margin: 0 auto
 }
 
+#tribute-link {
+  margin: 12px auto
+}
+
 footer {
-  display: flex;
   min-height: 4em;
-  flex-direction: column;
-  align-content: center;
+  padding: 32px 0;
   background-color: skyblue
 }
 
+footer nav {
+  margin: 8px auto
+}
+
 footer ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   list-style: none
 }
 
 footer ul li {
   margin: 4px;
+  margin: auto 8px;
   display: inline-block;
 }
 
