@@ -39,19 +39,20 @@ main {
 #img-div {
   display: flex;
   flex-direction: column;
-  max-height: 320px;
+  justify-content: center;
   padding: 24px 0
 }
 
 #img-div a {
-  text-align: center
+  margin: 0 auto;
+  max-width: 20%;
+  text-decoration: none;
 }
 
 #image {
   margin: 0 auto;
-  max-height: 320px;
-  max-width: 25%;
-  border: 2px skyblue solid;
+  max-width: 100%;
+  border: 2px #555555 solid;
   border-radius: 8px;
   overflow: hidden;
   display: block
@@ -70,16 +71,14 @@ main {
 }
 
 #tribute-info ul {
+  width: auto;
   margin: 0 auto
 }
 
-#tribute-link {
+#tribute-link:link,
+#tribute-link:visited {
+  color: navy;
   margin: 12px auto
-}
-
-a:link,
-a:visited {
-  color: navy
 }
 
 footer {
@@ -107,8 +106,15 @@ footer ul li {
 
 footer a:link,
 footer a:visited {
-  color: black
+  color: black;
+  transition: all 0.25s
 }
+
+footer a:hover,
+footer a:active {
+  color: blue
+}
+
 footer h4 {
   margin: auto;
   text-align: center
